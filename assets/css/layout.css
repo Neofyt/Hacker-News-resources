@@ -1,0 +1,82 @@
+html, body, div,  
+h1, h2, h3, h4, h5, h6, p, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+* {font-family: "Helvetica Neue", Arial, sans-serif;}
+
+a {
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 8px;
+    position: relative;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: #f9f9f9;
+    color: #ff6600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: #fff;
+}
+
+section, footer {
+    width: 520px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    color: #656565;
+}
+
+h1 {
+    font-size: 24px;
+    border-bottom: 1px dotted #b3b3b3;
+    color: #ff6600;
+}
+
+h2 {
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+p, h2 {
+    line-height: 20px;
+    margin-bottom: 13px;
+
+}
+
+p {
+    font-size: 13px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 1px dotted #b3b3b3;
+    padding: 15px 0;
+    width: 520px;
+}
